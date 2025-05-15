@@ -9,7 +9,7 @@ public class Quokka : MonoBehaviour
 
     // References
     private Rigidbody2D _rigidbody;
-    private Animator _animator
+    private Animator _animator;
 
     // Movement
     private Vector2 _movement;
@@ -39,6 +39,6 @@ public class Quokka : MonoBehaviour
     }
 
     void LateUpdate(){
-        _animator.SetBool("Idle", _movement == Vector2.zero)
+        _animator.SetBool("Idle", _movement == Vector2.zero);
     }
 }
