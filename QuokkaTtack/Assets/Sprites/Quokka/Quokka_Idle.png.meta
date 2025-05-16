@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 92f021ca7b73cd44ea967050a0dc8c43
+guid: e8cd34a4bd786bf48935c6132e1522f9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Slime_0
+      name: Quokka_Idle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -111,14 +111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4d59539dc41cc945b38968a51c6238a
-      internalID: -556532750
+      spriteID: 370a585bde10d8e46bb91f7f10a67390
+      internalID: -1870536203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime_1
+      name: Quokka_Idle_1
       rect:
         serializedVersion: 2
         x: 64
@@ -132,14 +132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb05164cedbf0524680dcf0c59959db0
-      internalID: -64697303
+      spriteID: daeab6f45e2b3024682ff289071b9831
+      internalID: 2009960578
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime_2
+      name: Quokka_Idle_2
       rect:
         serializedVersion: 2
         x: 128
@@ -153,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5034b683a0229d54b96ee9c6f8b74689
-      internalID: -405780021
+      spriteID: 2ef23c4584334904ca06474285a96572
+      internalID: -642752586
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime_3
+      name: Quokka_Idle_3
       rect:
         serializedVersion: 2
         x: 192
@@ -174,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58135cd8af75aa841a540c0c06292c7a
-      internalID: 1254402982
+      spriteID: a26d28a8d6a5c1743bb33b99e18fc558
+      internalID: -1788513682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime_4
+      name: Quokka_Idle_4
       rect:
         serializedVersion: 2
         x: 256
@@ -195,71 +195,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43bbff7b0a9f89e47be377400a8a3b25
-      internalID: -976071289
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_5
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: deb7c1a76c2054e48a71fd9657acd40d
-      internalID: 1447699930
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_6
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79b393d1c68cfc844bbb00889ea859b6
-      internalID: -1552112246
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_7
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9814457a9da662340b16d472c5526874
-      internalID: 439504832
+      spriteID: 5da92ef82d166724bb4e0e971060dc5d
+      internalID: 1696020461
       vertices: []
       indices: 
       edges: []
@@ -275,14 +212,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Slime_0: -556532750
-      Slime_1: -64697303
-      Slime_2: -405780021
-      Slime_3: 1254402982
-      Slime_4: -976071289
-      Slime_5: 1447699930
-      Slime_6: -1552112246
-      Slime_7: 439504832
+      Quokka_Idle_0: -1870536203
+      Quokka_Idle_1: 2009960578
+      Quokka_Idle_2: -642752586
+      Quokka_Idle_3: -1788513682
+      Quokka_Idle_4: 1696020461
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
