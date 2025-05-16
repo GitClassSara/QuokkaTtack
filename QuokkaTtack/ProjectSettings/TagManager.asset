@@ -41,9 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Arboles
+  - name: Fondo
     uniqueID: 2288991221
     locked: 0
-  - name: escenario
+  - name: Escenario
     uniqueID: 1956234877
+    locked: 0
+  - name: Delante
+    uniqueID: 604031087
     locked: 0
