@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 0
   alignment: 0
@@ -95,7 +95,28 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Quit_Button_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 21
+        width: 47
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ff0efa45defef4fa85c0044ba62051
+      internalID: 1977237800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline:
     - - {x: -23, y: -11}
       - {x: -23, y: 15}
@@ -114,7 +135,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Quit_Button_0: 1977237800
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
