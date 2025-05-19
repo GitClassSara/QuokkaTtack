@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e76008ceea33f2544811098b9e501b99
+guid: 088ddc65eb4b367419ec2d6c5dd484fe
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Game Over_0
+      name: Button_Menu_0
       rect:
         serializedVersion: 2
-        x: 42
-        y: 43.333332
-        width: 42.666668
-        height: 42.666668
+        x: 9
+        y: 21
+        width: 46
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,8 +111,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abe4c3c0614c5d34bb0086e79313dc07
-      internalID: -525328038
+      spriteID: bb24023041346e747b1a298f11132a62
+      internalID: -1955766551
       vertices: []
       indices: 
       edges: []
@@ -128,7 +128,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Game Over_0: -525328038
+      Button_Menu_0: -1955766551
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

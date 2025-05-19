@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e76008ceea33f2544811098b9e501b99
+guid: 611b868707172e6448fa50c2ae1e2a98
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Game Over_0
+      name: Restart Button_0
       rect:
         serializedVersion: 2
-        x: 42
-        y: 43.333332
-        width: 42.666668
-        height: 42.666668
+        x: 36
+        y: 49
+        width: 72
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,8 +111,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abe4c3c0614c5d34bb0086e79313dc07
-      internalID: -525328038
+      spriteID: 34093c6be970c1c4c9884567da105849
+      internalID: 381984456
       vertices: []
       indices: 
       edges: []
@@ -128,7 +128,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Game Over_0: -525328038
+      Restart Button_0: 381984456
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -2,7 +2,7 @@
 - Project name: QuokkaTtack
 - Unity version: Unity 2022.3.55f1
 - Active game object:
-  - Name: tierra (2)
+  - Name: Suelo_Piedra (8)
   - Tag: Untagged
   - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->
