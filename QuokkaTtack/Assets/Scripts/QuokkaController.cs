@@ -23,11 +23,15 @@ public class Quokka : MonoBehaviour
 
     // Attack
     private bool _isShooting;
+    public GameObject bulletPrefab;
+
+    private Transform _firePoint;
 
     void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
+        _firePoint = transform.Find("FirePoint");
     }
 
     // Start is called before the first frame update
@@ -71,6 +75,7 @@ public class Quokka : MonoBehaviour
             _movement = Vector2.zero;
             _rigidbody.velocity = Vector2.zero;
             _animator.SetTrigger("Shoot");
+            Shoot();
         }
     }
 
@@ -106,5 +111,24 @@ public class Quokka : MonoBehaviour
         float localScaleX = transform.localScale.x;
         localScaleX = localScaleX * -1f;
         transform.localScale = new Vector3(localScaleX, transform.localScale.y, transform.localScale.z);
+    }
+
+    void Shoot()
+    {
+        if (bulletPrefab != null && _firePoint != null)
+        {
+            GameObject myBullet = Instantiate(bulletPrefab, _firePoint.position, Quaternion.identity) as GameObject;
+            Bala bulletComponent = myBullet.GetComponent<Bala>();
+
+            if (!_facingRight)
+            {
+                //Izquierda
+                bulletComponent.direction = Vector2.left;
+            }
+            else
+            {
+                bulletComponent.direction = Vector2.right;
+            }
+        }
     }
 }
