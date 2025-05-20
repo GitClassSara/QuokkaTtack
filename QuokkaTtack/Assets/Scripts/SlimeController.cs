@@ -12,11 +12,7 @@ public class SlimeController : MonoBehaviour
     private GameObject _target;
 
 
-    void Awake()
-    {
-        
-    }
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -37,8 +33,8 @@ public class SlimeController : MonoBehaviour
         if (_target == null)
         {
             _target = new GameObject("Target");
-            _target.transform.position = new Vector2(maxX, transform.position.y);
-            transform.localScale = new Vector3(-1, 1, 1);
+            _target.transform.position = new Vector2(minX, transform.position.y);
+            transform.localScale = new Vector3(1, 1, 1);
             return;
         }
 
@@ -57,19 +53,17 @@ public class SlimeController : MonoBehaviour
         }
     }
 
-    private IEnumerator PatrolToTarget(Collision2D collision2D)
+    private IEnumerator PatrolToTarget()
     {
         // Coroutine to move the enemy
-        while (Vector2.Distance(transform.position, _target.transform.position) > 0.05f)
+        while(Vector2.Distance(transform.position, _target.transform.position) > 0.05f)
         {
-            if (!collision2D.gameObject.CompareTag("Plataforma")) 
-            {
                 // let's move to the target
                 Vector2 direction = _target.transform.position - transform.position;
                 float xDirection = direction.x;
 
                 transform.Translate(direction.normalized * speed * Time.deltaTime); 
-            }
+            
 
             // IMPORTANT
             yield return null;
@@ -78,7 +72,6 @@ public class SlimeController : MonoBehaviour
         // At this point, i've reached the target, let's set our position to the target's one
         Debug.Log("Target reached");
         transform.position = new Vector2(_target.transform.position.x, transform.position.y);
-        UpdateTarget();
 
         // And let's wait for a moment
         Debug.Log("Waiting for " + waitingTime + " seconds");
@@ -86,6 +79,7 @@ public class SlimeController : MonoBehaviour
 
         // once waited, let's restore the patrol behaviour
         Debug.Log("Waited enough, let's update the target and move again");
+        UpdateTarget();
         StartCoroutine("PatrolToTarget");
     }
 }
