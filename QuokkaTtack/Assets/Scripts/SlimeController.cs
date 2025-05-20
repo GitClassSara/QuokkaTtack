@@ -10,12 +10,11 @@ public class SlimeController : MonoBehaviour
     public float waitingTime = 2f;
 
     private GameObject _target;
-    private Collision colisio;
 
 
     void Awake()
     {
-
+        
     }
 
     // Start is called before the first frame update
@@ -58,16 +57,19 @@ public class SlimeController : MonoBehaviour
         }
     }
 
-    private IEnumerator PatrolToTarget()
+    private IEnumerator PatrolToTarget(Collision2D collision2D)
     {
         // Coroutine to move the enemy
         while (Vector2.Distance(transform.position, _target.transform.position) > 0.05f)
         {
-            // let's move to the target
-            Vector2 direction = _target.transform.position - transform.position;
-            float xDirection = direction.x;
+            if (!collision2D.gameObject.CompareTag("Plataforma")) 
+            {
+                // let's move to the target
+                Vector2 direction = _target.transform.position - transform.position;
+                float xDirection = direction.x;
 
-            transform.Translate(direction.normalized * speed * Time.deltaTime);
+                transform.Translate(direction.normalized * speed * Time.deltaTime); 
+            }
 
             // IMPORTANT
             yield return null;
