@@ -151,16 +151,8 @@ public class MushroomController : MonoBehaviour
     }
 
 
-    public void TakeDamage(int damage)
+    public void AddDamage()
     {
-        currentHealth -= damage;
-
-        if (currentHealth <= 0)
-            Die();
-    }
-
-    void Die()
-    {
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }

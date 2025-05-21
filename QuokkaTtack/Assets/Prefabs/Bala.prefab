@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 377670393182936941}
   - component: {fileID: -8621158133038229742}
   - component: {fileID: 5022731734444702347}
-  - component: {fileID: 1603655936722459549}
+  - component: {fileID: 7052400217255775726}
   m_Layer: 13
   m_Name: Bala
   m_TagString: Untagged
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1f85e3f1bf93574eab000729ef7993b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 7
   direction: {x: 0, y: 0}
   livingTime: 3
   damage: 1
@@ -130,8 +130,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!58 &1603655936722459549
-CircleCollider2D:
+--- !u!61 &7052400217255775726
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -159,9 +159,19 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.00600338, y: 0.000082314014}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.3764706, y: 0.3764706}
+    newSize: {x: 0.4, y: 0.4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 0.1882353
+  m_Size: {x: 0.2978506, y: 0.21612859}
+  m_EdgeRadius: 0

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bala : MonoBehaviour
+public class BalaEnemigos : MonoBehaviour
 {
     public float speed = 2f;
     public Vector2 direction;
@@ -26,7 +26,7 @@ public class Bala : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy"))
+        if (collision.CompareTag("Player"))
         {
             collision.SendMessageUpwards("AddDamage");
         }

@@ -132,4 +132,9 @@ public class Quokka : MonoBehaviour
             }
         }
     }
+
+    public void AddDamage()
+    {
+        gameObject.SetActive(false);
+    }
 }

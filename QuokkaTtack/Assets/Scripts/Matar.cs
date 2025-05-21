@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class NewBehaviourScript1 : MonoBehaviour
 {
+
+    public string escenaMuerte;
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -17,6 +20,6 @@ public class NewBehaviourScript1 : MonoBehaviour
     {
         Destroy(player);
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene("Muerte");
+        SceneManager.LoadScene(escenaMuerte);
     }
 }
