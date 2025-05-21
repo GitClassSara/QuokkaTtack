@@ -2,7 +2,7 @@
 - Project name: QuokkaTtack
 - Unity version: Unity 2022.3.55f1
 - Active game object:
-  - Name: Slime_0
+  - Name: Bala
   - Tag: Untagged
-  - Layer: Default
+  - Layer: Bala
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->

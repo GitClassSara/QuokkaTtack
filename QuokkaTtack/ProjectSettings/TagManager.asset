@@ -4,7 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Plataforma
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -13,11 +13,13 @@ TagManager:
   - Water
   - UI
   - Enemies
-  - Plataforma
+  - 
   - Ground
   - 
   - 
   - 
+  - Player
+  - Bala
   - 
   - 
   - 
@@ -35,9 +37,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - EnemyHitbox
   m_SortingLayers:
   - name: Default
     uniqueID: 0
