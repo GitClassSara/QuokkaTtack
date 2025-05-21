@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Quokka : MonoBehaviour
+public class QuokkaController : MonoBehaviour
 {
-
     public float speed = 2.5f;
     public float jumpForce = 2.5f;
 
@@ -135,6 +134,6 @@ public class Quokka : MonoBehaviour
 
     public void AddDamage()
     {
-        gameObject.SetActive(false);
+        Destroy(gameObject);
     }
 }

@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5035501657160336341}
   - component: {fileID: 377670393182936941}
-  - component: {fileID: 8602673090263808039}
   - component: {fileID: -5328539260642113349}
   - component: {fileID: 3654002109067156103}
+  - component: {fileID: -7478263602995542136}
   m_Layer: 0
   m_Name: Mushroom_Bullet
   m_TagString: Untagged
@@ -87,22 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8602673090263808039
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8309227410520274102}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d38f604218620b4c8f463c8e7066c32, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
-  direction: {x: 0, y: 0}
-  livingTime: 3
-  damage: 1
 --- !u!50 &-5328539260642113349
 Rigidbody2D:
   serializedVersion: 4
@@ -159,9 +143,25 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.0014939308, y: 0.0014938414}
   serializedVersion: 2
   m_Radius: 0.124904305
+--- !u!114 &-7478263602995542136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8309227410520274102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d38f604218620b4c8f463c8e7066c32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  direction: {x: 0, y: 0}
+  livingTime: 3
+  damage: 1

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MushroomController : MonoBehaviour
+public class EyeController : MonoBehaviour
 {
     public float speed = 1f;
     public float minX;

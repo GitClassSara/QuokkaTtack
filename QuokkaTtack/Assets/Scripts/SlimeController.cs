@@ -82,4 +82,9 @@ public class SlimeController : MonoBehaviour
         UpdateTarget();
         StartCoroutine("PatrolToTarget");
     }
+
+    public void AddDamage()
+    {
+        gameObject.SetActive(false);
+    }
 }

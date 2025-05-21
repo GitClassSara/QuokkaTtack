@@ -2,7 +2,7 @@
 - Project name: QuokkaTtack
 - Unity version: Unity 2022.3.55f1
 - Active game object:
-  - Name: Plataforma (1)
-  - Tag: Untagged
-  - Layer: Ground
+  - Name: Mushroom
+  - Tag: Enemy
+  - Layer: Enemies
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->

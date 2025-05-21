@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5035501657160336341}
   - component: {fileID: 377670393182936941}
-  - component: {fileID: -2762957674168113449}
   - component: {fileID: -2082055305108691202}
   - component: {fileID: -999126380988135699}
+  - component: {fileID: 1430287646899083019}
   m_Layer: 0
   m_Name: Eye_Bullet
   m_TagString: Untagged
@@ -87,22 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-2762957674168113449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8309227410520274102}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d38f604218620b4c8f463c8e7066c32, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
-  direction: {x: 0, y: 0}
-  livingTime: 3
-  damage: 1
 --- !u!50 &-2082055305108691202
 Rigidbody2D:
   serializedVersion: 4
@@ -165,3 +149,19 @@ CircleCollider2D:
   m_Offset: {x: 0.00718379, y: -0.021601662}
   serializedVersion: 2
   m_Radius: 0.11356859
+--- !u!114 &1430287646899083019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8309227410520274102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d38f604218620b4c8f463c8e7066c32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  direction: {x: 0, y: 0}
+  livingTime: 3
+  damage: 1
