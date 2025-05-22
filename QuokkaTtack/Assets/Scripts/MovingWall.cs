@@ -11,7 +11,6 @@ public class MovingWall : MonoBehaviour
     private Vector3 startPosition;
     private Vector3 targetPosition;
     private bool movingUp = true;
-    private bool isWaiting = false;
 
     void Start()
     {

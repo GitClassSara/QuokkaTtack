@@ -237,3 +237,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   escenaMuerte: MuerteNivel2
+  death: {fileID: 0}

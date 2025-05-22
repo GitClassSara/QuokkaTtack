@@ -27,6 +27,8 @@ public class QuokkaController : MonoBehaviour
 
     private Transform _firePoint;
 
+    public string escenaMuerte;
+
     void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
@@ -134,6 +136,7 @@ public class QuokkaController : MonoBehaviour
 
     public void AddDamage()
     {
-        Destroy(gameObject);
+        gameObject.SetActive(false);
+        SceneManager.LoadScene(escenaMuerte);
     }
 }

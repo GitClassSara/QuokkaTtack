@@ -2,7 +2,7 @@
 - Project name: QuokkaTtack
 - Unity version: Unity 2022.3.55f1
 - Active game object:
-  - Name: Mushroom
-  - Tag: Enemy
-  - Layer: Enemies
+  - Name: Quokka
+  - Tag: Player
+  - Layer: Player
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->
